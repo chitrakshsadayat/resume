@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gunjan Sharma - Fine Arts Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 40px;
+      color: #333;
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      margin-top: 30px;
+      font-size: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 6px;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .portfolio-list li {
+      margin-bottom: 6px;
+    }
+
+    button.copy-btn {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-bottom: 20px;
+      transition: background 0.3s ease;
+    }
+
+    button.copy-btn:hover {
+      background-color: #34495e;
+    }
+
+    pre {
+      display: none;
+      white-space: pre-wrap;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #ecf0f1;
+      color: #333;
+      padding: 6px 10px;
+      margin: 5px 6px 0 0;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <h1>Gunjan Sharma</h1>
+    <div class="contact">
+      New Delhi, India | gunjan.sharma@email.com | +91-9876543210<br/>
+      <a href="https://www.instagram.com/artbygunjan" target="_blank">Instagram</a> | 
+      <a href="https://www.behance.net/gunjanart" target="_blank">Behance</a>
+    </div>
+    <p class="tagline">
+      Passionate Fine Artist with a Master’s degree and a flair for creating compelling visual stories across traditional and digital media.
+    </p>
+
+    <button class="copy-btn" onclick="copyResume()">Copy Resume Text</button>
+
+    <div class="section">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>M.A. in Fine Arts</strong>, Delhi College of Art (2022) – Painting & Mixed Media (Distinction)</li>
+        <li><strong>B.A. in Visual Arts</strong>, Jamia Millia Islamia (2020) – Final project: “Urban Solitude” (10 acrylic canvases)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Core Skills</h3>
+      <div class="skills">
+        <span>Acrylic/Oil/Watercolor Painting</span>
+        <span>Procreate</span>
+        <span>Adobe Illustrator</span>
+        <span>Mixed Media</span>
+        <span>Concept Art</span>
+        <span>Storyboarding</span>
+        <span>Photoshop</span>
+        <span>Art Curation</span>
+        <span>Creative Writing</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Exhibitions & Projects</h3>
+      <ul>
+        <li><strong>“Echoes of Color”</strong> – Solo Exhibit at Triveni Kala Sangam (2023): 15 original works</li>
+        <li><strong>“Whispers of the Wind”</strong> – Illustrated children’s book, 20 watercolors (2022)</li>
+        <li><strong>“Young Voices in Art”</strong> – Group Exhibition at Lalit Kala Akademi (2021)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Professional Experience</h3>
+      <ul>
+        <li><strong>Freelance Illustrator & Artist</strong> (2021–Present): Commissioned artworks, posters, and workshops</li>
+        <li><strong>Intern – National Gallery of Modern Art</strong> (2020): Cataloguing, description writing, visitor guidance</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Certifications & Workshops</h3>
+      <ul>
+        <li>Advanced Digital Art – NIFT Delhi (2023)</li>
+        <li>Art for Healing – ArtReach India (2022)</li>
+        <li>Photography Masterclass – YouTube Learning (2021)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Awards & Recognition</h3>
+      <ul>
+        <li>Winner – AIFACS Student Award (2021)</li>
+        <li>Featured in Creative India magazine – “Artists to Watch” (2023)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Languages</h3>
+      <ul>
+        <li>English – Fluent</li>
+        <li>Hindi – Native</li>
+        <li>French – Intermediate</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Portfolio Preview</h3>
+      <ul class="portfolio-list">
+        <li>“Tranquil Chaos” – Acrylic on canvas</li>
+        <li>“The Bird & the Girl” – Watercolor Illustration</li>
+        <li>“Roots” – Mixed Media</li>
+        <li>Character Concept Sheet – Digital</li>
+        <li>“Moonchild” Book Cover – Digital Art</li>
+      </ul>
+    </div>
+
+    <!-- Hidden resume text to copy -->
+    <pre id="resumeText">
+Gunjan Sharma
+New Delhi, India | gunjan.sharma@email.com | +91-9876543210 
+Instagram: @artbygunjan | Behance: gunjanart
+
+Passionate and detail-oriented Fine Artist with a Master’s degree and over 3 years of hands-on experience...
+
+EDUCATION
+- M.A. in Fine Arts, Delhi College of Art (2022)
+- B.A. in Visual Arts, Jamia Millia Islamia (2020)
+
+SKILLS
+Painting (Acrylic, Oil, Watercolor), Digital Art (Procreate, Illustrator), Storyboarding, Photoshop, Mixed Media, Creative Writing
+
+EXHIBITIONS & PROJECTS
+- "Echoes of Color" – Solo Exhibition, 2023
+- "Whispers of the Wind" – Book Illustrations, 2022
+- "Young Voices in Art" – Group Show, 2021
+
+EXPERIENCE
+- Freelance Illustrator & Artist (2021–Present)
+- Intern – National Gallery of Modern Art (2020)
+
+CERTIFICATIONS
+- Digital Art Workshop – NIFT Delhi (2023)
+- Art for Healing – ArtReach India (2022)
+
+AWARDS
+- AIFACS Student Award (2021)
+- Featured in Creative India (2023)
+
+LANGUAGES
+- English, Hindi, French
+
+PORTFOLIO
+Tranquil Chaos | The Bird & the Girl | Roots | Moonchild
+    </pre>
+  </div>
+
+  <script>
+    function copyResume() {
+      const text = document.getElementById("resumeText").innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Resume text copied to clipboard!");
+      });
+    }
+  </script>
+</body>
+</html>
